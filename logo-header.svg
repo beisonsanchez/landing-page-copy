@@ -1,0 +1,18 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cubo isométrico - wireframe azul brillante -->
+  <g stroke="#3b82f6" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Cara frontal del cubo -->
+    <path d="M15 25 L25 20 L25 30 L15 35 Z"/>
+    <!-- Cara superior del cubo -->
+    <path d="M15 25 L25 20 L35 25 L25 30 Z"/>
+    <!-- Cara lateral del cubo -->
+    <path d="M25 20 L35 25 L35 35 L25 30 Z"/>
+  </g>
+  
+  <!-- G estilizada que sale del cubo -->
+  <g stroke="#3b82f6" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M15 25 Q12 22 12 20 Q12 18 15 15 Q18 12 22 12 Q26 12 29 15 Q32 18 32 20 Q32 22 29 25"/>
+    <!-- Punto/nodo al final de la G -->
+    <circle cx="32" cy="20" r="2" fill="#3b82f6"/>
+  </g>
+</svg> 

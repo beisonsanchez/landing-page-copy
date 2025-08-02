@@ -1,0 +1,26 @@
+<svg width="250" height="100" viewBox="0 0 250 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo negro (opcional, para mantener el contexto) -->
+  <rect width="250" height="100" fill="transparent"/>
+  
+  <!-- Cubo isométrico - wireframe azul brillante -->
+  <g stroke="#3b82f6" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Cara frontal del cubo -->
+    <path d="M40 50 L60 40 L60 60 L40 70 Z"/>
+    <!-- Cara superior del cubo -->
+    <path d="M40 50 L60 40 L80 50 L60 60 Z"/>
+    <!-- Cara lateral del cubo -->
+    <path d="M60 40 L80 50 L80 70 L60 60 Z"/>
+  </g>
+  
+  <!-- G estilizada que sale del cubo -->
+  <g stroke="#3b82f6" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M40 50 Q35 45 35 40 Q35 35 40 30 Q45 25 55 25 Q65 25 70 30 Q75 35 75 40 Q75 45 70 50"/>
+    <!-- Punto/nodo al final de la G -->
+    <circle cx="75" cy="40" r="3" fill="#3b82f6"/>
+  </g>
+  
+  <!-- Texto INGENIASOFT en blanco -->
+  <text x="125" y="85" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="white" letter-spacing="1">
+    INGENIASOFT
+  </text>
+</svg> 
